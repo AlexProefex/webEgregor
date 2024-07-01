@@ -1,0 +1,3 @@
+.button {
+	@apply p-[20px] rounded-[20px] font-medium mb-[14px] w-full;
+}

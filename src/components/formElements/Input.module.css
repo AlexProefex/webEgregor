@@ -1,0 +1,27 @@
+.group {
+	@apply flex flex-col gap-[10px] w-full;
+}
+
+.inputGroup {
+    @apply flex flex-col gap-[4px]
+}
+
+.label {
+	@apply text-g200;
+}
+
+.input {
+	@apply px-[20px] py-[16px] border border-g100 rounded-[10px] w-full;
+}
+
+.buttonEye {
+	@apply absolute top-1/2 end-0 p-3.5 rounded-e-md -translate-y-1/2;
+}
+
+.helpertext {
+	@apply text-error text-sm;
+}
+
+.error {
+	@apply border-error;
+}
